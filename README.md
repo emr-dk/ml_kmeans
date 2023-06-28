@@ -1,16 +1,5 @@
 # Introduction
-This is an implementation of the kmeans algorithm in python. The algorithm is implemented in the file kmeans.py. The file kmeans.py contains a class called KMeans which implements the algorithm. The class has the following methods:
-* __init__(self, k, max_iter=100, tol=1e-4, verbose=False)
-* fit(self, X)
-* predict(self, X)
-* get_centroids(self)
-* get_labels(self)
-
-The class is initialized with the following parameters:
-* k: the number of clusters
-* max_iter: the maximum number of iterations
-* tol: the tolerance for the stopping criterion
-* verbose: if True, the algorithm will print the number of iterations
+This is an implementation of the kmeans algorithm in Python. 
 
 ## Mathematical background
 The kmeans algorithm is an algorithm for clustering data. The algorithm takes as input a set of data points and a number k and outputs k clusters. The algorithm works as follows:
@@ -33,4 +22,4 @@ We will be implementing the algorithm using the expectation maximization algorit
 
 
 ## Implementation
-The implementation of the kmeans algorithm is in the file kmeans.py. The file contains a class called KMeans which implements the algorithm.
+The implementation of the kmeans algorithm is in the file kmeans.py.
