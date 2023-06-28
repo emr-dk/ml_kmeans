@@ -9,9 +9,7 @@ The kmeans algorithm is an algorithm for clustering data. The algorithm takes as
 4. Repeat steps 2 and 3 until the centroids do not change or the maximum number of iterations is reached
 
 The mathematical notation for the kmeans model is as follows:
-$$
-\argmin_{\mu_1, \ldots, \mu_k} \sum_{i=1}^n \min_{j=1, \ldots, k} \|\mathbf{x}_i - \mu_j\|^2
-$$
+$$\argmin_{\mu_1, \ldots, \mu_k} \sum_{i=1}^n \min_{j=1, \ldots, k} \|\mathbf{x}_i - \mu_j\|^2$$
 where $\mathbf{x}_i$ is the $i$ th data point and $\mu_j$ is the $j$ th centroid.
 
 We will be implementing the algorithm using the expectation maximization algorithm. The expectation maximization algorithm is an algorithm for finding the maximum likelihood estimate of a model. The algorithm works as follows:
