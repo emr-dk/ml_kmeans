@@ -12,6 +12,9 @@ The class is initialized with the following parameters:
 * tol: the tolerance for the stopping criterion
 * verbose: if True, the algorithm will print the number of iterations
 
+## Jupyter noteboook
+To make the process easier to understand I've created a jupyter notebook that goes through the process step by step. It's basically just a copy of the code in the file kmeans.py with some comments added.
+
 ## Mathematical background
 The kmeans algorithm is an algorithm for clustering data. The algorithm takes as input a set of data points and a number k and outputs k clusters. The algorithm works as follows:
 1. Initialize _k_ centroids
